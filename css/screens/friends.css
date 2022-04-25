@@ -24,7 +24,7 @@
 }
 
 .friends-screen__channel-header {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +33,7 @@
 }
 
 .friends-screen__channel--friends{
-    margin: 10px 0px;
+    margin: 12px 0px;
     padding: 0px;
     border: none;
 }

@@ -91,8 +91,8 @@
 .message__bubble {
     margin-top: 5px;
     background-color: white;
-    font-size: 14px;
-    padding: 7px 10px;
+    font-size: 15px;
+    padding: 8px 10px;
     border-radius: 15px;
     border-top-left-radius: 0px;
     margin-right: 5px;
@@ -153,15 +153,15 @@
     width: 100%;
     background-color: white;
     display: flex;
-    justify-content: space-between;
-    padding: 5px 20px;
+    justify-content: flex-start;
+    padding: 5px 5px 5px 12px;
     box-sizing: border-box;
     align-items: center;
     transition: transform 0.3s ease-in-out;
 }
 
 .reply .reply__column:first-child{
-    width: 10%;
+    width: 9%;
 }
 
 .reply .reply__column:last-child{
