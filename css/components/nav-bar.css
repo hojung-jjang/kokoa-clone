@@ -29,4 +29,15 @@
     bottom: 17px;
 }
 
- 
+
+
+.nav__notification {
+        position: absolute;
+        left: 14px;
+        bottom: 10px;
+}
+
+.nav__btn:nth-child(2) {
+    font-size: 17px;
+}
+
