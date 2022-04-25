@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    margin-bottom: 10px;
+    margin: 10px 0px;
 }
 
 .screen-header__title {
@@ -18,3 +18,15 @@
     color: var(--icon-gray);
 }
 
+@keyframes rotateCog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotatez(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: rotateCog 1s linear infinite;
+}

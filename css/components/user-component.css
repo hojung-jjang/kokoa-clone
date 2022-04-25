@@ -1,7 +1,7 @@
 
 .user-component {
     justify-content: space-between;
-    margin-top: 12px;
+    margin-top: 10px;
 }
 
 .user-component,
@@ -35,6 +35,7 @@
 
 .user-component__subtitle--friends {
     font-weight: 500;
+    font-size: 13px;
 }
 
 .user-component__avatar--xl{
