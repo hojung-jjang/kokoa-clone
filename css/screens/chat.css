@@ -91,7 +91,7 @@
 .message__bubble {
     margin-top: 5px;
     background-color: white;
-    font-size: 15px;
+    font-size: 16px;
     padding: 8px 10px;
     border-radius: 15px;
     border-top-left-radius: 0px;
@@ -202,6 +202,9 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .reply__column button i{
@@ -226,8 +229,8 @@
 }
 
 .reply input:focus {
-    width: 97vw;
-    transform: translateX(-13%) translateY(-80px);
+    width: 100%;
+    transform: translateX(-5%) translateY(-80px);
 }
 
 .reply:focus-within {
